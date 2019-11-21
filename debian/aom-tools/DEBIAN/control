@@ -1,0 +1,12 @@
+Package: aom-tools
+Source: libaom
+Version: 20191121-1
+Architecture: amd64
+Maintainer: Ryo Hirafuji <ryo.hirafuji@link-u.co.jp>
+Installed-Size: 849
+Depends: libaom0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://aomedia.org/
+Description: AV1 Video Codec Library -- Tools

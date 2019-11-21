@@ -8,6 +8,12 @@ Homepage: https://aomedia.org/
 Vcs-Git: https://aomedia.googlesource.com/aom/
 Vcs-Browser: https://aomedia.googlesource.com/aom/
 
+Package: aom-tools
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: AV1 Video Codec Library -- Tools
+
 Package: libaom-dev
 Section: libdevel
 Architecture: any
