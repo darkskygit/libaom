@@ -1,0 +1,5 @@
+libaom (20191121-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Ryo Hirafuji <ryo.hirafuji@link-u.co.jp>  Thu, 21 Nov 2019 16:06:38 +0900

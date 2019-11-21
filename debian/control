@@ -1,0 +1,24 @@
+Source: libaom
+Priority: optional
+Maintainer: Ryo Hirafuji <ryo.hirafuji@link-u.co.jp>
+Build-Depends: debhelper (>= 10), cmake(>=3.5), yasm [any-amd64 any-i386],
+Standards-Version: 4.1.2
+Section: libs
+Homepage: https://aomedia.org/
+Vcs-Git: https://aomedia.googlesource.com/aom/
+Vcs-Browser: https://aomedia.googlesource.com/aom/
+
+Package: libaom-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libaom0 (= ${binary:Version}), ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: libaom0
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
