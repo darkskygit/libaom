@@ -1,6 +1,6 @@
-aom-tools-dbgsym_20191121-1_amd64.ddeb debug optional
-aom-tools_20191121-1_amd64.deb libs optional
-libaom-dev_20191121-1_amd64.deb libdevel optional
-libaom0-dbgsym_20191121-1_amd64.ddeb debug optional
-libaom0_20191121-1_amd64.deb libs optional
-libaom_20191121-1_amd64.buildinfo libs optional
+aom-tools-dbgsym_1.0.1-git20191121-1_amd64.ddeb debug optional
+aom-tools_1.0.1-git20191121-1_amd64.deb libs optional
+libaom-dev_1.0.1-git20191121-1_amd64.deb libdevel optional
+libaom1-dbgsym_1.0.1-git20191121-1_amd64.ddeb debug optional
+libaom1_1.0.1-git20191121-1_amd64.deb libs optional
+libaom_1.0.1-git20191121-1_amd64.buildinfo libs optional

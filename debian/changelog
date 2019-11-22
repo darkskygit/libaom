@@ -1,4 +1,4 @@
-libaom (20191121-1) unstable; urgency=medium
+libaom (1.0.1-git20191121-1) unstable; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
