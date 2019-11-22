@@ -1,0 +1,15 @@
+debhelper-build-stamp
+.DS_Store
+.debhelper
+*.deb
+*.dsc
+*.build
+*.buildinfo
+*.changes
+*.tar.gz
+*.log
+*.substvars
+
+tmp/
+libaom*/
+aom-tools/
