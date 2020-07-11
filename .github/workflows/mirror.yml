@@ -1,0 +1,29 @@
+name: Sync with upstream
+
+on:
+  push:
+    branches:
+      - 'actions/mirror'
+  schedule:
+    - cron:  '13 */6 * * *'
+
+jobs:
+  update-mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+          fetch-depth: 0
+      - name: Sync with upstream/master
+        shell: bash
+        run: |
+          git remote add upstream https://aomedia.googlesource.com/aom
+          git fetch upstream
+          git reset --hard upstream/master
+          git checkout -b master
+          git branch --set-upstream-to=origin/master
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
